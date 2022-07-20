@@ -160,9 +160,7 @@ onepagescroll('div.main',{
 
 		}
 		else{
-
 			currentPage+=increase;
-
 		}
 
 		if(setting.animationTime) isPageChanging = true;
@@ -191,7 +189,7 @@ onepagescroll('div.main',{
 
 	//bind touch
 	document.addEventListener('touchstart', function(e) {
-		e.preventDefault();
+		// e.preventDefault();
 		if (e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel') {
 		var touch = e.touches[0] || e.changedTouches[0];
 			if(setting.direction == 'vertical')
@@ -202,7 +200,7 @@ onepagescroll('div.main',{
 	});
 
 	document.addEventListener('touchend', function(e) {
-		e.preventDefault();
+		// e.preventDefault();
 
 		if (e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel') {
 			var touch = e.touches[0] || e.changedTouches[0];
@@ -245,8 +243,9 @@ onepagescroll('div.main',{
 
       $$('.actual li a').forEach((element,ind)=> {
          element.onclick=()=>{
+				console.log(1)
             let myid=element.dataset.myid;
-            
+
 
 
             // $(element.dataset.myid).scrollIntoView();

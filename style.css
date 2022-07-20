@@ -63,6 +63,7 @@ body * {
   -webkit-text-fill-color: transparent;
   transition: .4s all;
   position: relative;
+  z-index: 15;
 }
 .content ul li a::after{
    position: absolute;
@@ -75,6 +76,7 @@ body * {
    left: -100%;
    transform: scale(0);
    transition: .4s all;
+   z-index: 15;
 }
 .content ul li a:hover::after{
    transform: scale(1);
@@ -92,6 +94,7 @@ color: rgb(255, 151, 39);
 }
 .actual p{
    position: relative;
+   z-index: 15;
 }
 .actual p::after{
    position: absolute;
@@ -102,6 +105,7 @@ color: rgb(255, 151, 39);
    background-color: rgb(128, 100, 239);
    top: 100%;
    left: 0;
+   z-index: 15;
 }
 
 .poem1 {
