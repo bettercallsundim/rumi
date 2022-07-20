@@ -24,8 +24,6 @@ body * {
    justify-content: flex-end;
    align-items: flex-start;
    padding: 5rem;
-   padding-bottom: 0;
-
 }
 .content::before{
    content: '';
