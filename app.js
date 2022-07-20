@@ -160,9 +160,9 @@ onepagescroll('div.main',{
 
 		}
 		else{
-         console.log(currentPage)
+
 			currentPage+=increase;
-         console.log(currentPage)
+
 		}
 
 		if(setting.animationTime) isPageChanging = true;
@@ -246,7 +246,7 @@ onepagescroll('div.main',{
       $$('.actual li a').forEach((element,ind)=> {
          element.onclick=()=>{
             let myid=element.dataset.myid;
-            console.log(ind)
+            
 
 
             // $(element.dataset.myid).scrollIntoView();
