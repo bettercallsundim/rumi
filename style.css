@@ -24,6 +24,7 @@ body * {
    justify-content: flex-end;
    align-items: flex-start;
    padding: 5rem;
+   padding-bottom: 0;
 
 }
 .content::before{
@@ -213,8 +214,9 @@ img {
   /* flex-grow: 1; */
   flex-shrink: 1;
  }
- .poem1 {
-  /* justify-content: center; */
+ .content {
+  align-items: center;
+  justify-content: center;
  }
  .four pre {
    font-size: .8rem;
