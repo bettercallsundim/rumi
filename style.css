@@ -40,7 +40,8 @@ body * {
    position: absolute;
    z-index: 11;
    border-radius: 10px;
-   backdrop-filter: blur(24px) grayscale(50%);
+   backdrop-filter: blur(24px) saturate(50%);
+   background-color: rgba(40, 40, 40, 0.5);
    padding: .5rem 1rem;
    overflow: hidden;
 }
@@ -53,8 +54,9 @@ body * {
   -webkit-text-fill-color: transparent;
 }
 .content ul li a{
-   font-weight: 500;
+   font-weight: 600;
    font-size: 1.1rem;
+ 
    color: white;
    text-decoration: none;
    background: linear-gradient(to right,rgb(255, 27, 122) 35%, rgb(45, 171, 221));
@@ -188,7 +190,7 @@ img {
 .four pre {
    color: rgb(232, 232, 232);
    font-weight: 600;
-   backdrop-filter: blur(4px) ;
+   backdrop-filter: blur(4px) grayscale(50%); ;
    border-radius: 150px;
    line-height: 2;
    padding: 2rem;
@@ -203,7 +205,8 @@ img {
 
 @media (max-width: 768px) {
  .poem1 {
-  padding-top: 1rem;
+   padding:7rem;
+
   flex-direction: column;
   justify-content: flex-start;
  }
