@@ -116,6 +116,7 @@ color: rgb(255, 151, 39);
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
+ gap: 2rem;
 }
 
 .poem1 pre {
@@ -190,10 +191,11 @@ img {
 .four pre {
    color: rgb(232, 232, 232);
    font-weight: 600;
-   backdrop-filter: blur(4px) grayscale(50%); ;
-   border-radius: 150px;
+   backdrop-filter: blur(24px) saturate(50%);
+   background-color: rgba(40, 40, 40, 0.5);
+   border-radius: 10px;
    line-height: 2;
-   padding: 2rem;
+   padding: 1rem;
 }
 
 .poem1 strong{
