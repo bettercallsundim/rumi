@@ -115,6 +115,7 @@ color: rgb(255, 151, 39);
  background: url("https://images.unsplash.com/photo-1508898578281-774ac4893c0c");
  background-position: center;
  background-size: cover;
+ background-repeat: no-repeat;
 }
 
 .poem1 pre {
