@@ -197,11 +197,13 @@ img {
 
 
 .three pre,.five pre{
-   color: black;
+   color: rgb(255, 246, 251);
    font-weight: 600;
-   backdrop-filter: blur(4px);
-   border-radius: 150px;
+   background-color: rgba(101, 101, 101, 0.3);
+   backdrop-filter: blur(4px) saturate(85%);
+   border-radius: 10px;
    line-height: 2;
+   padding: 1rem .5rem;
 }
 .four pre {
    color: rgb(232, 232, 232);
