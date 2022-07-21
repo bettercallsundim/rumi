@@ -266,5 +266,6 @@ img {
 .five pre{
    padding:1rem 0;
    font-size: 10px !important;
+   color: black;
  }
 }
